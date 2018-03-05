@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Meng Li's Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/academicons/css/academicons.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+                                    <!-- <a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a> -->
+									<ul class="icons">
+                                        <li><a href="https://scholar.google.com/citations?user=lvdRkEkAAAAJ&hl=en&authuser=1" class="ai ai-google-scholar ai-2x"><span class="label"></span></a></li>
+										<li><a href="https://www.linkedin.com/in/meng-li-50b8597a/" class="icon fa-linkedin fa-2x"><span class="label">Linkedin</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Section -->
+                                <section id="news">
+									<header class="major">
+										<h2>Physical Unclonable Function</h2>
+									</header>
+                                    Physical unclonable function (PUF) is a pseudo-random function that exploits the inherent randomness in the scaled CMOS technologies to generate unique output response given certain input challenge. Existing PUF designs suffers from following limitations:
+                                    <li> Large output bit error rate due to the temperature and voltage variation. </li>
+                                    <li> Limited usage due to the requirement of enrollment phase, during which large amount of responses need to be characterized and stored. </li>
+                                    Targeting at solving the two limitations of the traditional PUF designs, we propose a novel <a href="doc/DAC2016_PPUF.pdf">public PUF</a> and a <a href="doc/ICCAD2016_LRRDPUF.pdf">digital PUF</a> design.
+                                    <br/>&nbsp;</br>
+                                    <h3>Related Publications</h3>
+                                    <ul>
+                                        <li> Jin Miao, <b>Meng Li</b>, Subhendu Roy, Yuzhe Ma and Bei Yu, "SD-PUF: Spliced Digital Physical Unclonable Function", <i>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</i>, 2017 </li>
+                                        <li> Jin Miao, <b>Meng Li</b>, Subhendu Roy and Bei Yu, "LRR-DPUF: Learning Resilient and Reliable Digital Physical Unclonable Function", <i>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</i>, Austin, TX, Nov. 7-10, 2016 </li>
+                                        <li> <b>Meng Li</b>, Jin Miao, Kai Zhong and David Z. Pan, "Practical Public PUF Enabled by Solving Max-Flow Problem on Chip", <i>IEEE/ACM Design Automation Conference (DAC)</i>, Austin, TX, Jun. 5-9, 2016 </li>
+                                    </ul>
+                                </section>
+
+                                <section id="news">
+									<header class="major">
+										<h2>Hardware IP Protection</h2>
+									</header>
+                                    With the globalization of the hardware supply chain, IP privacy and integrity become a significant concern for the semiconductor industry. Major threats arise from reverse engineering, hardware Trojan insertion, and fault injection attack due to untrusted fabrication and deployment environment. To protect hardware IP, we propose a novel framework that consists of a IC obfuscation flow, a split manufacturing flow, and a system level fault attack vulnerability evaluation flow.
+                                    <li> IC obfuscation, including IC camouflaging and logic encryption, targets at preventing reverse engineering. By inserting camouflaging gates with similar layout but different functionalities or inserting key gates with temper-proof memory, the original circuit netlist is hidden from the attackers. </li>
+                                    <li> Split manufacturing targets at preventing hardware Trojan insertion. In the split manufacturing process, the circuit layout is split into front-end-of-line (FEOL) layers, which consists of all the cells and interconnections in lower metal layers, and back-end-of-line (BEOL) layers, which consist of all the interconnections in higher metal layers. By fabricating the BEOL layers in trusted foundries, important circuit information can be hidden from the untrusted foundries. </li>
+                                    <li> Fault attack evaluation targets at evaluating the vulnerability of the system against deliberate fault injection attack. </li>
+                                    <br/>&nbsp;</br>
+                                    <h3>Related Publications</h3>
+                                    <ul>
+                                        <li> <b>Meng Li</b>, Bei Yu, Yibo Lin, Xiaoqing Xu, Wuxi Li and David Z. Pan, "A Practical Split Manufacturing Framework for Trojan Prevention via Simultaneous Wire Lifting and Cell Insertion", <i>Asia and South Pacific Design Automation Conference (ASPDAC)</i>, Jeju Island, Korea, Jan. 22-25, 2018 </li>
+                                        <li> <b>Meng Li</b>, Liangzhen Lai, Vikas Chandra, and David Z. Pan, "Cross-level Monte Carlo Framework for System Vulnerability Evaluation against Fault Attack", <i>IEEE/ACM Design Automation Conference (DAC)</i>, Austin, TX, Jun. 18-22, 2017 </li>
+                                        <li> <b>Meng Li</b>, Kaveh Shamsi, Travis Meade, Zheng Zhao, Bei Yu, Yier Jin and David Z. Pan, "Provably Secure Camouflaging Strategy for IC Protection", <i>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</i>, 2017 </li>
+                                        <li> Kaveh Shamsi, <b>Meng Li</b>, Travis Meade, Zheng Zhao, David Z. Pan and Yier Jin, "Cyclic Obfuscation for Creating SAT-Unresolvable Circuits", <i> ACM Great Lakes Symposium on VLSI (GLSVLSI)</i>, Banff, Alberta, Canada, May 10-12, 2017 </li>
+                                        <li> Kaveh Shamsi, <b>Meng Li</b>, Travis Meade, Zheng Zhao, David Z. Pan and Yier Jin, "Circuit Obfuscation and Oracle-guided Attacks: Who Can Prevail?", <i> ACM Great Lakes Symposium on VLSI (GLSVLSI)</i>, Banff, Alberta, Canada, May 10-12, 2017 (invited) </li>
+                                        <li> Kaveh Shamsi, <b>Meng Li</b>, Travis Meade, Zheng Zhao, David Z. Pan and Yier Jin, "AppSAT: Approximately Deobfuscating Integrated Circuits", <i>IEEE International Symposium on Hardware Oriented Security and Trust (HOST)</i>, McLean, VA, May 1-4, 2017 <a style="color:red;">(best paper award)</a> </li>
+                                        <li> <b>Meng Li</b>, Kaveh Shamsi, Travis Meade, Zheng Zhao, Bei Yu, Yier Jin and David Z. Pan, "Provably Secure Camouflaging Strategy for IC Protection", <i>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</i>, Austin, TX, Nov. 7-10, 2016 </li>
+                                    </ul>
+                                </section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+                            -->
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+                                        <li><a href="MengLi.html">About Me</a></li>
+										<li><a href="MengLi.html#news">News</a></li>
+                                        <li>
+                                            <span class="opener">Research Interest</span>
+                                            <ul>
+                                                <li><a href="security.html">Hardware-Oriented Security</a></li>
+                                                <li><a href="reliability.html">Hardware Reliability</a></li>
+                                                <li><a href="physical.html">Backend Design Automation</a></li>
+                                            </ul>
+                                        </li>
+										<li><a href="MengLi.html#internship">Working Experience</a></li>
+										<li><a href="MengLi.html#education">Education</a></li>
+										<li><a href="MengLi.html#honors">Honors</a></li>
+										<li><a href="MengLi.html#publication">Publications</a></li>
+                                        <li><a href="doc/resume.pdf">Resume</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Contact</h2>
+									</header>
+									<ul class="contact">
+										<li class="fa-envelope-o"><a href="#">meng_li@utexas.edu</a></li>
+										<li class="fa-home">EER, UT Austin<br />
+										Austin, TX 78712</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Meng Li. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
